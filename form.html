@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TOTHENEW-FORM</title>
+</head>
+<body>
+	<p style ="color: #008b8b;font-size: 20px;font-family: sans-serif;margin-left: 30px;">
+		TO THE NEW
+	</p>
+
+	<hr style="border-top: 0px;margin-left: 30px;margin-right: 30px;">
+
+	<div style="height:550px; width: 350px;border: 1px solid grey; margin: 0 auto;">
+		<div style="height:40px;width: auto; background: lightgrey;font-family: sans-serif;font-size: 20px;font-weight: 900;color: white;padding-top: 10px;padding-left: 25px;">
+			Bug Report
+		</div>
+
+		<div style="height:510px;width:auto;font-family: sans-serif;font-size: 15px;font-weight: 900;">
+			
+        <form action="action.php">
+			  <label for="fname" style="margin-left: 20px;color: #A9A9A9;">Title:*</label>
+			  <br>
+			  <input type="text" id="fname" name="fname" required="fname" style="margin-left:20px;width: 300px;margin-right: 20px;" >
+			  <br><br>
+
+			  <label for="lname" style="margin-left:20px;color: #A9A9A9;">Description:*</label>
+			  <br>
+			  
+			  <textarea id="Description" name="Description" rows="4" cols="20" required="Description" style="margin-left:20px;width: 300px;margin-right: 20px;">
+			  </textarea>
+
+			  <br><br> 
+			  
+			  <label for="os" style="margin-left: 20px;color: #A9A9A9;">Operating System:</label>
+			  <br>
+			  <select name="Operating System" id="Operating System" style="background: #008b8b; color: white;margin-left:20px;width: 300px;margin-right: 20px;">
+					  <option value="ubuntu">Ubuntu</option>
+					  <option value="window">Window</option>
+					  <option value="mac">Mac</option>
+					  <option value="fedora">Fedora</option>
+		      </select>
+
+
+		      <br><br>
+		      <label for="product" style="margin-left: 20px;color: #A9A9A9;">Product:*</label>
+			  <br>
+			  <select name="Product" id="Product" style="background: #008b8b; color: white;margin-left:20px;width: 300px;margin-right: 20px;" required="Product">
+					  <option value="Fermoid">Fermoid</option>
+					  <option value="window">Window</option>
+					  <option value="mac">Mac</option>
+					  <option value="fedora">Fedora</option>
+		      </select>
+
+
+
+		      <br><br>
+		       <label for="version" style="margin-left: 20px;color: #A9A9A9;">Version:*</label>
+		       <br>
+
+		       <input type="text" id="version" name="version" required="version"
+		       style="margin-left:20px;width: 100px;">
+			  <br><br>
+
+
+
+
+			  <label for="license" style="margin-left: 20px;color: #A9A9A9;">License:</label>
+			  <br>
+			   <input type="radio"  name="license" value="val1" 
+		       style="margin-left:20px;">
+		       <label for="free" style="color: #A9A9A9;width: 100px;">Free:</label>
+
+
+		       <input type="radio"  name="license" value="val2" 
+		       style="margin-left:20px;">
+		       <label for="business" style="color: #A9A9A9;">Business:</label>
+
+			  <br><br>
+
+
+
+			  <label for="severity" style="margin-left: 20px;color: #A9A9A9;">Severity:</label>
+			  <br>
+			  <select name="severity" id="severity" style="background: #008b8b; color: white;margin-left:20px;width: 300px;margin-right: 20px;" required="severity">
+					  <option value="Critical">Critical</option>
+					  <option value="window">Window</option>
+					  <option value="mac">Mac</option>
+					  <option value="fedora">Fedora</option>
+		      </select>
+		      <br><br>
+
+
+		      <label for="Attachments" style="margin-left: 20px;color: #A9A9A9;">Attachments:</label>
+			  <br>
+			  <input type="file" id="Attachments" name="Attachments"
+		       style="margin-left:20px;width: 300px;">
+		       <br>
+		    
+
+
+
+
+		<div style="height:37px;width: auto; background: lightgrey;font-family: sans-serif;font-size: 20px;font-weight: 900;color: white;padding-left: 270px;">
+		   <input type="submit" value="Send" style="background:#008b8b;">
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		   </form>
+		</div>
+
+
+		
+		
+	</div>
+
+</body>
+</html>
